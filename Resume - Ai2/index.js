@@ -2,8 +2,6 @@ $(window).ready(function(){
 	navMenu();
 	proGressBar();
 	proJects();
-	console.log($(".about").position());
-	console.log($(".skills").position());
 	scrollPage();
 });
 
@@ -46,8 +44,11 @@ function proGressBar() {
 	}
 }
 
+
 function hover (item,child,effect){
-	$(item).hover(function(){$(this).children(child).addClass(effect);}).mouseover(function(){$(this).children(child).addClass(effect);}).mouseout(function(){$(this).children(child).removeClass(effect);})
+	$(item).hover(function(){$(this).children(child).addClass(effect);})
+	.mouseover(function(){$(this).children(child).addClass(effect);})
+	.mouseout(function(){$(this).children(child).removeClass(effect);})
 }
 
 function proJects() {
