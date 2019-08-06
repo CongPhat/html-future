@@ -44,7 +44,6 @@ function proGressBar() {
 	}
 }
 
-
 function hover (item,child,effect){
 	$(item).hover(function(){$(this).children(child).addClass(effect);})
 	.mouseover(function(){$(this).children(child).addClass(effect);})

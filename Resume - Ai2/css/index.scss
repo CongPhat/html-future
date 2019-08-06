@@ -76,7 +76,7 @@ body {
 		z-index: 2;
 		#avata {
 			background:{
-				image: url("images/about1.jpg");
+				image: url("../images/about1.jpg");
 				position: bottom;
 				size: contain;
 				repeat: no-repeat;
@@ -133,7 +133,7 @@ body {
 
 	#bg-top {
 		height: 690px;
-		background-image: linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.9)),url(images/Laptop_on_Desk_HD_Wallpaper.jpg);
+		background-image: linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.9)),url(../images/Laptop_on_Desk_HD_Wallpaper.jpg);
 		background-position: right;
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -257,23 +257,23 @@ body {
 			}
 		}
 		@media screen and (max-width: 576px) {
-						.introduce {
-							padding: 0;
-							ul {
-								padding: 0;
-								li {
-									span {
-										display: block
-									}
-								}
-								li:nth-child(4) {
-									span:last-child {
-										font-size: 18px;
-									}
-								}
+			.introduce {
+				padding: 0;
+					ul {
+						padding: 0;
+						li {
+							span {
+								display: block
+							}
+						}
+						li:nth-child(4) {
+							span:last-child {
+								font-size: 18px;
 							}
 						}
 					}
+			}
+		}
 	}
 }
 
@@ -458,17 +458,17 @@ $skills: (1: $colorFirst, 2: $colorSecond, 3: $colorThird, 4: $colorFour, 5: $co
 		}
 		.item-project:first-child {
 			.box-item {
-				background-image: url(images/projects-1.jpg);
+				background-image: url(../images/projects-1.jpg);
 			}
 		}
 		.item-project:nth-child(2) {
 			.box-item {
-				background-image: url(images/projects-2.jpg);
+				background-image: url(../images/projects-2.jpg);
 			}
 		}
 		.item-project:last-child {
 			.box-item {
-				background-image: url(images/projects-3.jpg);
+				background-image: url(../images/projects-3.jpg);
 			}
 		}
 	}
@@ -477,17 +477,17 @@ $skills: (1: $colorFirst, 2: $colorSecond, 3: $colorThird, 4: $colorFour, 5: $co
 @media screen and (max-width: 1024px) {
 	.item-project:first-child {
 			.box-item {
-				background-image: linear-gradient(to top, rgba(0,0,0,0.4),rgba(0,0,0,0.6)),url(images/projects-1.jpg) !important;
+				background-image: linear-gradient(to top, rgba(0,0,0,0.4),rgba(0,0,0,0.6)),url(../images/projects-1.jpg) !important;
 			}
 	}
 	.item-project:nth-child(2) {
 			.box-item {
-				background-image: linear-gradient(to top, rgba(0,0,0,0.4),rgba(0,0,0,0.6)),url(images/projects-2.jpg) !important;
+				background-image: linear-gradient(to top, rgba(0,0,0,0.4),rgba(0,0,0,0.6)),url(../images/projects-2.jpg) !important;
 			}
 	}
 	.item-project:last-child {
 			.box-item {
-				background-image: linear-gradient(to top, rgba(0,0,0,0.4),rgba(0,0,0,0.6)),url(images/projects-3.jpg) !important;
+				background-image: linear-gradient(to top, rgba(0,0,0,0.4),rgba(0,0,0,0.6)),url(../images/projects-3.jpg) !important;
 			}
 	}
 		.box-item {
