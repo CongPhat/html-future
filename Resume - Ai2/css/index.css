@@ -336,9 +336,6 @@ body #page-info {
 .projects .my-projects {
   padding-top: 30px;
 }
-.projects .my-projects .item-project {
-  padding: 10px;
-}
 .projects .my-projects .item-project a {
   text-decoration: none;
 }
