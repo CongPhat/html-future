@@ -63,11 +63,23 @@ function proJects() {
 
 function scrollPage (){
 	var element = $(".items-infor");
+	var menu = $('#menu ul li a');
+	console.log(menu[1].text);
+	console.log(menu.text());
 		$(element).addClass("empty");
 		$(window).scroll(function(){
 			var move = $(window).scrollTop();
 			$(element).each(function(){
 				if(move >= $(this).position().top - 200) {
+					for(i=0;i<menu.length;i++){
+						var onMenu = menu[i].text.toLowerCase();
+						console.log(onMenu);
+						if($(this).attr('class').indexOf(onMenu) != -1){
+							$(menu[i]).addClass('kaka');
+						}
+						else $(menu[i]).removeClass('kaka');
+					}
+
 					if ($(this).hasClass("skills") || $(this).hasClass("contact")) {			
 						$(this).removeClass("empty").addClass("effect-right");
 

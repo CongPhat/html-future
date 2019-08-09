@@ -90,6 +90,9 @@ body #page-info {
   font-size: 15px;
   text-decoration: none;
 }
+#page-info #nav-aside #menu ul li .kaka {
+  color: #2c98f0;
+}
 #page-info #nav-aside #menu ul li a:hover {
   color: #2c98f0;
 }
